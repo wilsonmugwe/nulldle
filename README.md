@@ -37,15 +37,21 @@ Each guess provides instant color feedback:
 git clone https://github.com/<your-username>/nulldle.git
 cd nulldle
 
+```
 
-2. Get Dependencies
+### 2. Get Dependencies
+```bash
 flutter pub get
 
-3. Run the App
+```
+
+### 3. Run the App
+```bash
 flutter run
+```
 
 
-Performance Metrics
+### 4. Performance Metrics
 Metric	Description	Measured (ms)	Target	Outcome
 Startup Time	Time for the first frame after app launch	398	≤ 500	Within target
 Guess Submission	Time to validate and show result	0–1	≤ 5	Instant feedback
@@ -54,7 +60,7 @@ Load Statistics	Time to retrieve stored data	0	≤ 5	Excellent
 
 
 
-Learning Outcomes
+### 5. Learning Outcomes
 
 Strengthened understanding of state management and code refactoring
 
@@ -62,7 +68,7 @@ Applied clean architecture principles for improved maintainability
 
 Gained experience in testing, UI optimization, and logic-UI separation
 
-Author
+### Author
 
 Wilson Mugwe Gathii
 Bachelor of Computer Science – Software Engineering Major
